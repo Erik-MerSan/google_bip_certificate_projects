@@ -1,0 +1,8 @@
+SELECT * 
+FROM `awesome-shore-398120.fiber.market_1`
+UNION ALL
+SELECT *
+FROM `awesome-shore-398120.fiber.market_2`
+UNION ALL
+SELECT *
+FROM `awesome-shore-398120.fiber.market_3`
