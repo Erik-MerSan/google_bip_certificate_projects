@@ -6,7 +6,6 @@ SELECT
   ZIPEND.zip_code AS zip_code_end,
   ZIPENDNAME.borough borough_end,
   ZIPENDNAME.neighborhood AS neighborhood_end,
-  -- Since this is a fictional dashboard, you can add 5 years to make it look recent
   DATE_ADD(DATE(TRI.starttime), INTERVAL 5 YEAR) AS start_day,
   DATE_ADD(DATE(TRI.stoptime), INTERVAL 5 YEAR) AS stop_day,
   WEA.temp AS day_mean_temperature,
